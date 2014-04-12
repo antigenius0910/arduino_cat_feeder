@@ -1,0 +1,17 @@
+ARDUINO_CAT_FEEDER
+
+In this project using only an Arduino with an Ethernet shield.
+I¡¦ll be controlling one servo, but you can apply this method to control a DC motors, buzzers, relays, stepper motors, etc..
+
+Overview:
+When you upload the the code provided in this tutorials. it creates a webserver in your LAN and you simply use the IP to access that webserver through your browser. After that it shows a webpage similar to that one below. When you press the button ¡§Feed Cats¡¨ your url will change to: ¡§http://192.168.1.100/?button1on¡¨ the arduino will read that information and It turns the servo On.
+
+By default the IP is ¡§192.168.1.100¡². That also can be found on the Arduino code provided.
+
+Step 1: Parts Required
+1x Arduino Uno
+1x Ethernet Shield 
+1x Micro Servo Motor
+1x Breadboard
+Jumper Cables
+
