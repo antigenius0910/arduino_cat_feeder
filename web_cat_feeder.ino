@@ -70,8 +70,8 @@ void loop(){
           client.println("<a href=\"/?button1on\"\">Feed Cats</a>");
           client.println("<br />");
           client.println("<br />"); 
-          client.println("  <iframe width='420' height='345' src='http://www.justin.tv/widgets/live_embed_player.swf?channel=antigenius0910'>  />"); 
-          client.println("   </iframe>  "); 
+          client.println("<iframe width='420' height='345' src='http://www.justin.tv/widgets/live_embed_player.swf?channel=antigenius0910'>/>"); 
+          client.println("</iframe>"); 
           client.println("</BODY>");
           client.println("</HTML>");
 
