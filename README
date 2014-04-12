@@ -8,6 +8,10 @@ When you upload the the code provided in this tutorials. it creates a webserver 
 
 By default the IP is ¡§192.168.1.100¡². That also can be found on the Arduino code provided.
 
+Justin.tv is a free online service for broadcasting live audio/video streams. After creating an account, I can publish my live webcam feed by clicking the 'Go Live!' button in the top-right corner of the page. I allow access to my webcam when asked and click the 'Start' button to begin broadcasting. Once my channel is live, I can embed the output in a webpage using some simple HTML code
+using http://www.justin.tv/widgets/live_embed_player.swf?channel=YOURCHANNELNAME and you can add a feed cam on your webcam.
+
+
 Step 1: Parts Required
 1x Arduino Uno
 1x Ethernet Shield 
